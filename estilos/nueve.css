@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    font-family: 'Red Hat Display',sans-serif;
+    position: relative;
+    place-items: center;
+    min-height: 100vh;
+    font-weight: bold;
+    padding-top: 20px;
+}
+#palleteContainer{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.palleteItem{
+    transition: background-color .5s;
+}
+.palleteItem span{
+    padding: 10px;
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+    display: inline-block;
+    min-width: 80px;
+}
+button{
+    font-family: 'Red Hat Display',sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #000;
+}
+
+nav ul{
+    /*mostrando la barra de menu de manera horizontal*/
+    display: flex;
+    flex-direction: row;
+    padding: 150px;
+    /*justificar izquierda o derecha del menu*/
+    justify-content: flex-start;
+    justify-content: center;
+    /*fodificacion del tamano*/
+    font-size:1rem ;
+    text-align: center;
+    
+}
+li a{
+    color: black;
+    text-decoration: none;
+    padding: 20px 50px;
+    border: 1px solid rgb(0, 7, 102);
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 3px 0 3px 3px rgb(65, 63, 63);
+}
+ul li{
+    padding-right: 70px;
+    list-style: none;
+}
+a:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
